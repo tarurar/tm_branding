@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8b854452-ffec-4324-8041-850def314862" solutionId="8b854452-ffec-4324-8041-850def314862" resetWebServer="false" sharePointProductVersion="15.0" name="PPR.Taksomotor.PortalWebTemplate" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="a7e37bbd-b382-4b83-a303-4b268c9b42cb" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="1f439528-b483-453d-88f3-238eb148ab8c" />
+    <projectItemReference itemId="a33eefc9-e1b7-4ea6-890f-05762592ebe7" />
+    <projectItemReference itemId="ec2b6cea-30ab-4dcc-817f-cb9e5053e72b" />
+  </projectItems>
+</package>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9529BA1D-18C3-4773-BE0B-A8E9323A77CC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PPR.Taksomotor.PortalWebTemplate</RootNamespace>
+    <AssemblyName>PPR.Taksomotor.PortalWebTemplate</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>../PPR.Taksomotor.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Features\PPR.Taksomotor.PortalWebTemplateFeature\PPR.Taksomotor.EventReceiver.cs">
+      <DependentUpon>PPR.Taksomotor.PortalWebTemplateFeature.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ResourceBranding.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Branding\MasterPages\TaksomotorSystem.master" />
+    <None Include="Branding\MasterPages\Taksomotor.master" />
+    <None Include="Branding\MasterPages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d574eead-1714-4aed-86dc-ad2c4cc878a4}</SharePointProjectItemId>
+    </None>
+    <None Include="Branding\PageLayouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b1ceb9d5-450f-4e94-8ab1-b819bcf2f3f2}</SharePointProjectItemId>
+    </None>
+    <None Include="Branding\Style Library\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{145384bf-7dac-455d-9988-f5451ec0032c}</SharePointProjectItemId>
+    </None>
+    <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ec2b6cea-30ab-4dcc-817f-cb9e5053e72b}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\PPR.Taksomotor.PortalWebTemplateFeature\PPR.Taksomotor.PortalWebTemplateFeature.feature">
+      <FeatureId>{a7e37bbd-b382-4b83-a303-4b268c9b42cb}</FeatureId>
+    </None>
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1f439528-b483-453d-88f3-238eb148ab8c}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{8b854452-ffec-4324-8041-850def314862}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Resources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a33eefc9-e1b7-4ea6-890f-05762592ebe7}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CONTROLTEMPLATES\TaksomotorRibbon.ascx" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\images\favicon.png" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\tcss\style.css" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\tcss\TopMenu.css" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\timg\data_bg.png" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\timg\logo.png" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\timg\news_bg.jpg" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\timg\px_line.png" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\timg\top_bg.png" />
+    <Content Include="Resources\ResourceBranding.en-US.resx" />
+    <Content Include="Resources\ResourceBranding.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Branding\MasterPages\Elements.xml" />
+    <Content Include="Branding\PageLayouts\Elements.xml" />
+    <Content Include="Branding\PageLayouts\TaksomotorPageLayouts.aspx" />
+    <Content Include="Branding\Style Library\Elements.xml" />
+    <Content Include="Features\PPR.Taksomotor.PortalWebTemplateFeature\PPR.Taksomotor.PortalWebTemplateFeature.Template.xml">
+      <DependentUpon>PPR.Taksomotor.PortalWebTemplateFeature.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\css\ie.css" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\css\reset.css" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\css\style.css" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\images\bg-slider-pagination.png" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\images\bg-tail.png" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\images\button1-tail.gif" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\images\button2-tail.gif" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\images\content-tail.png" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\images\footer-tail.png" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\images\header-tail.png" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\images\loader.gif" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\images\marker-1.png" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\images\menu-row-tail.gif" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\images\menu-spacer.gif" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\images\pags.png" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\images\pic-1.gif" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\js\bgSlider.js" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\js\cufon-replace.js" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\js\cufon-yui.js" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\js\easyTooltip.js" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\js\FF-cash.js" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\js\html5.js" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\js\jquery-1.6.3.min.js" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\js\jquery.easing.1.3.js" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\js\script.js" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\js\tms-0.3.js" />
+    <Content Include="Layouts\PPR.Taksomotor.PortalWebTemplate\js\tms_presets.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

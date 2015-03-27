@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+ <Module Name="PageLayouts" Path="PageLayouts" Url="_catalogs/masterpage">
+
+   <File Path="TaksomotorPageLayouts.aspx" Url="PageLayouts/TaksomotorPageLayouts.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE">
+     <Property Name="Title" Value="$Resources:ResourceBranding,PageLayout_WelcomePage_Title;" />
+     <Property Name="ContentType" Value="$Resources:cmscore,contenttype_pagelayout_name;" />
+     <Property Name="PublishingPreviewImage" 
+               Value="~SiteCollection/_catalogs/masterpage/$Resources:core,Culture;" />
+
+   </File>
+ </Module>
+</Elements>

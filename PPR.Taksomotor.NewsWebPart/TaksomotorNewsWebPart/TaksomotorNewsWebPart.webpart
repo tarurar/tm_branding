@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="PPR.Taksomotor.NewsWebPart.TaksomotorNewsWebPart.TaksomotorNewsWebPart, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Новостная веб-часть Токсомотор</property>
+        <property name="Description" type="string">Обеспечивает показ последней новости из списка новостей на главной странице</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

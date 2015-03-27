@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="5b1cc5da-5499-423b-97c8-0b6adf0b8e10" solutionId="5b1cc5da-5499-423b-97c8-0b6adf0b8e10" resetWebServer="false" sharePointProductVersion="15.0" name="PPR.Taksomotor.NewsWebPart" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="3de95727-5d08-4fa3-9db4-6669cbcacf41" />
+  </features>
+</package>

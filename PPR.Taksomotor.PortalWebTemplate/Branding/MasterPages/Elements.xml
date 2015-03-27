@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MasterPages" Path="MasterPages" Url="_catalogs/masterpage" RootWebOnly="TRUE">
+    <File Url="Taksomotor.master" Type="GhostableInLibrary" ReplaceContent="TRUE">
+      <Property Name="Title" Value="$Resources:ResourceBranding,Masterpage_Portal_Title;" />
+      <Property Name="Description" Value="$Resources:ResourceBranding,Masterpage_Portal_Description;" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
+    </File>
+    <File Url="TaksomotorSystem.master" Type="GhostableInLibrary" ReplaceContent="TRUE" >
+      <Property Name="Title" Value="Taksomotor System Master Page" />
+      <Property Name="Description" Value="Taksomotor System Master Page for AIS Taksomotor" />
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
+    </File>
+  </Module>
+</Elements>
+

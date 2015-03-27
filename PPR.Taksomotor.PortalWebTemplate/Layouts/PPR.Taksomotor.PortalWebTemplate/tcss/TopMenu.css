@@ -1,0 +1,175 @@
+﻿/*Настройка вренего меню навигации*/
+/*для администратора*/
+
+
+#zz13_RootAspMenu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#zz13_RootAspMenu > li {
+	float: left;
+	font-size: 14px;
+}
+#zz13_RootAspMenu a {
+border-top:5px solid #fceb15 ;
+  padding: 26px 25px 22px 25px;
+	display: block;
+    
+	color: #3f3f3f;
+	text-decoration: none;
+	position: relative;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+#zz13_RootAspMenu a:hover {
+	background: #c3c8ce;
+	color: #000; 
+  border-top:5px solid #a8b0bb;
+	text-shadow: none !important;
+}
+
+.selected a {
+   border-top:5px solid #FFAD00 !important;
+	background: #ffe51d !important;
+	color: #3f3f3f !important;
+	text-shadow: none !important;
+}
+
+
+
+  
+
+.dynamic  a  {
+border-top:0px solid #fceb15 !important;
+	padding: 1px 1px 1px 1px !important;
+	
+}
+
+
+
+#zz13_RootAspMenu > ul > li > a:first-child {
+		display: none;
+}
+
+#zz13_RootAspMenu > ul > li > ul:first-child {
+		padding-left: 0;
+}
+
+/* для обычного пользователь*/
+#zz6_RootAspMenu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#zz6_RootAspMenu > li {
+	float: left;
+	font-size: 14px;
+}
+#zz6_RootAspMenu a {
+	border-top:5px solid #fceb15 ;
+  padding: 26px 25px 22px 25px;
+	display: block;
+
+	color: #3f3f3f;
+	text-decoration: none;
+	position: relative;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+#zz6_RootAspMenu a:hover {
+	background: #c3c8ce;
+	color: #000; 
+	border-top:5px solid #a8b0bb;
+	text-shadow: none !important;
+}
+
+
+
+#zz6_RootAspMenu > ul > li > a:first-child {
+		display: none;
+}
+
+#zz6_RootAspMenu > ul > li > ul:first-child {
+		padding-left: 0;
+}
+
+#zz2_RootAspMenu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#zz2_RootAspMenu > li {
+	float: left;
+	font-size: 14px;
+}
+#zz2_RootAspMenu a {
+	border-top:5px solid #fceb15 ;
+  padding: 26px 25px 22px 25px;
+	display: block;
+  
+	color: #3f3f3f;
+	text-decoration: none;
+	position: relative;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+#zz2_RootAspMenu a:hover {
+	background: #c3c8ce;
+	color: #000; 
+	border-top:5px solid #a8b0bb;
+	text-shadow: none !important;
+}
+
+
+
+#zz2_RootAspMenu > ul > li > a:first-child {
+		display: none;
+}
+
+#zz2_RootAspMenu > ul > li > ul:first-child {
+		padding-left: 0;
+}
+
+
+#zz12_RootAspMenu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#zz12_RootAspMenu > li {
+	float: left;
+	font-size: 14px;
+}
+#zz12_RootAspMenu a {
+	border-top:5px solid #fceb15 ;
+  padding: 26px 25px 22px 25px;
+	display: block;
+   
+	color: #3f3f3f;
+	text-decoration: none;
+	position: relative;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+#zz12_RootAspMenu a:hover {
+	background: #c3c8ce;
+	color: #000; 
+	border-top:5px solid #a8b0bb;
+	text-shadow: none !important;
+}
+
+
+
+#zz12_RootAspMenu > ul > li > a:first-child {
+		display: none;
+}
+
+#zz12_RootAspMenu > ul > li > ul:first-child {
+		padding-left: 0;
+}
+
+
+#DeltaTopNavigation > div > ul {
+	padding-left: 0px;
+}
