@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PPR.Taksomotor.NewsWebPart/obj/Debug
+/PPR.Taksomotor.PortalWebTemplate/obj/Debug
+/_UpgradeReport_Files
+/UpgradeLog.htm
+/UpgradeLog.XML
